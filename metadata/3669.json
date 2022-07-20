@@ -1,0 +1,39 @@
+{
+  "name": "Loot Box #3669",
+  "description": "The lootboxes might contain incredible prizes, from 5 to 100 Matic, $UWU tokens, NFTS and much more, get yours now!",
+  "image": "/3669.png",
+  "dna": "2949cbbda9c5c24ef809e6124fa414c12e40eedb",
+  "edition": 3669,
+  "date": 1653010394120,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Loot Box"
+    },
+    {
+      "trait_type": "Body Color",
+      "value": "Loot Box"
+    },
+    {
+      "trait_type": "Clothing Accesories",
+      "value": "Loot Box"
+    },
+    {
+      "trait_type": "Face Style",
+      "value": "Loot Box"
+    },
+    {
+      "trait_type": "Head Accesories",
+      "value": "Loot Box"
+    },
+    {
+      "trait_type": "Horns Style",
+      "value": "Loot Box"
+    },
+    {
+      "trait_type": "Lineage",
+      "value": "2nd Drop"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Weirdo #4530",
+  "description": "Underworld weirdos is a community driven collection of 9.9k randomly generated NFTs on the Polygon blockchain. We have decided to recruit the most incredible weirdos from all over the world to reign with us in the Metaverse.",
+  "image": "/4530.png",
+  "dna": "e49b190ba9e339e9e08f44e914f17e2a23131394",
+  "edition": 4530,
+  "date": 1654551493796,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Purple_Blue_Gradient"
+    },
+    {
+      "trait_type": "Body Color",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Clothing Accesories",
+      "value": "Cold"
+    },
+    {
+      "trait_type": "Face Style",
+      "value": "Regular"
+    },
+    {
+      "trait_type": "Head Accessories",
+      "value": "Drag_Hair"
+    },
+    {
+      "trait_type": "Horns Style",
+      "value": "Bling_bling"
+    },
+    {
+      "trait_type": "Lineage",
+      "value": "Devil"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

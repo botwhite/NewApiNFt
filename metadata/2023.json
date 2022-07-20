@@ -1,0 +1,43 @@
+{
+  "name": "Weirdo #2023",
+  "description": "Underworld weirdos is a community driven collection of 9.9k randomly generated NFTs on the Polygon blockchain. We have decided to recruit the most incredible weirdos from all over the world to reign with us in the Metaverse.",
+  "image": "ipfs://QmdZqo3jM44mdQEkuxtdbubguBDjnMgYErAxzdLGLjy5ot/2023.png",
+  "dna": "332afc665149259e32cc48f75257981e9c92751b",
+  "edition": 2023,
+  "date": 1646581254433,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft_Red"
+    },
+    {
+      "trait_type": "Body Color",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Clothing Accesories",
+      "value": "Kill_Bill_Suit"
+    },
+    {
+      "trait_type": "Head Accessories",
+      "value": "Rainbow_Icecream"
+    },
+    {
+      "trait_type": "Horns Style",
+      "value": "Girly"
+    },
+    {
+      "trait_type": "Face Style",
+      "value": "Blank"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "Green_Imp_IV"
+    },
+    {
+      "trait_type": "Lineage",
+      "value": "Devil"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
