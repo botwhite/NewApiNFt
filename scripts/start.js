@@ -20,6 +20,7 @@ const contract = new Contract(abi, CONTRACT_ADDRESS)
 
 const app = express()
 
+app.get('/', (req, res) => res.send('Welcome to Weirdo API'));
 app.use(express.static(__dirname + 'public'))
 app.use('/unrevealed', express.static(__dirname + '/unrevealed'));
 
