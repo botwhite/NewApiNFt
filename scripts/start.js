@@ -1,6 +1,6 @@
 var MAX_SUPPLY = null
 const CONTRACT_ADDRESS = "0xA6691486Ef1114B746002966300E3ca145BF1CfE"
-const PORT = 80
+const PORT = 81
 const IS_REVEALED = true
 const UNREVEALED_METADATA = {
   "name":"Underworld Weirdos",
