@@ -44,7 +44,7 @@ async function serveMetadata(res, nft_id) {
     return_value = UNREVEALED_METADATA
   }else
   {
-    return_value = fs.readFileSync("./metadata/" + nft_id).toString().trim()
+    return_value = fs.readFileSync("./metadata/" + nft_id + '.json').toString().trim()
   }
   res.send(return_value)
 }
