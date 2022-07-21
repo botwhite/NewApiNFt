@@ -5,7 +5,7 @@ const IS_REVEALED = true
 const UNREVEALED_METADATA = {
   "name":"Underworld Weirdos",
   "description":"???",
-  "image":"http://157.245.126.14:3000/unrevealed/image.png",
+  "image":"https://weirdometada.com/unrevealed/hidden.gif",
   "attributes":[{"???":"???"}]
 }
 
