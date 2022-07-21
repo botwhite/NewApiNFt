@@ -25,7 +25,7 @@ app.use(express.static(__dirname + 'public'))
 app.use('/unrevealed', express.static(__dirname + '/unrevealed'));
 
 async function initAPI() {
-  MAX_SUPPLY = 100000
+  MAX_SUPPLY = 6666
   console.log("MAX_SUPPLY is: " + MAX_SUPPLY)
   app.listen(PORT, () => {
     console.log(`Listening to port ${PORT}`)
@@ -33,15 +33,18 @@ async function initAPI() {
 }
 async function serveMetadata(res, nft_id) {
   var token_count = parseInt(await contract.methods.totalSupply().call())
+  console.log(token_count)
   let return_value = {}
   if(nft_id < 0)
   {
+    
     return_value = {error: "NFT ID must be greater than 0"}
   }else if(nft_id >= MAX_SUPPLY)
   {
     return_value = {error: "NFT ID must be lesser than max supply"}
-  }else if (nft_id >= token_count)
+  }else if (nft_id > token_count)
   {
+    console.log(nft_id  <= token_count )
     return_value = UNREVEALED_METADATA
   }else
   {
