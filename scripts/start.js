@@ -44,7 +44,7 @@ async function serveMetadata(res, nft_id) {
     return_value = {error: "NFT ID must be lesser than max supply"}
   }else if (nft_id > token_count)
   {
-    console.log(nft_id  <= token_count )
+
     return_value = UNREVEALED_METADATA
   }else
   {
