@@ -17,7 +17,7 @@ async function uploadFileList(files) {
     metadata_json["image"] = IMAGE_BASE_URL + file_name
 
     fs.writeFileSync(METADATA_DIRECTORY + file.replace('.json', '')+'.json', JSON.stringify(metadata_json))
-    console.log("Debug "+METADATA_DIRECTORY + file.replace('.json', ''))
+    //console.log("Debug "+METADATA_DIRECTORY + file.replace('.json', ''))
 
     console.log(`Uploaded to ${IMAGE_BASE_URL + file_name}`)
   }

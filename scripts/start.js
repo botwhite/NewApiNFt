@@ -33,7 +33,7 @@ async function initAPI() {
 }
 async function serveMetadata(res, nft_id) {
   var token_count = parseInt(await contract.methods.totalSupply().call())
-  console.log(token_count)
+  //console.log(token_count)
   let return_value = {}
   if(nft_id < 0)
   {
