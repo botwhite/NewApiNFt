@@ -17,9 +17,9 @@ const abi = require('../Contract.json').abi
 const Contract = require('web3-eth-contract')
 Contract.setProvider(process.env.RINKEBY_RPC_URL)
 const contract = new Contract(abi, CONTRACT_ADDRESS)
-
+var cors = require('cors')
 const app = express()
-
+app.use(cors())
 app.get('/', (req, res) => res.send('Welcome to Weirdo API'));
 app.use(express.static(__dirname + 'public'))
 app.use('/unrevealed', express.static(__dirname + '/unrevealed'));

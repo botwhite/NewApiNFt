@@ -5,6 +5,7 @@
   "main": "main.js",
   "dependencies": {
     "@kleros/file-to-ipfs": "^0.3.2",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.19",
     "web3": "^1.5.2"
