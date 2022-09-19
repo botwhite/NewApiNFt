@@ -20,12 +20,12 @@ const contract = new Contract(abi, CONTRACT_ADDRESS)
 var cors = require('cors')
 const app = express()
 app.use(cors())
-app.get('/', (req, res) => res.send('Welcome to Weirdo API'));
+app.get('/', (req, res) => res.send('Welcome to Companions API'));
 app.use(express.static(__dirname + 'public'))
 app.use('/unrevealed', express.static(__dirname + '/unrevealed'));
 
 async function initAPI() {
-  MAX_SUPPLY = 6666
+  MAX_SUPPLY = 5000
   console.log("MAX_SUPPLY is: " + MAX_SUPPLY)
   app.listen(PORT, () => {
     console.log(`Listening to port ${PORT}`)
