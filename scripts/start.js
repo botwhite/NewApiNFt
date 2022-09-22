@@ -1,5 +1,5 @@
 var MAX_SUPPLY = null
-const CONTRACT_ADDRESS = "0xf76D572b7cAd7DC379FE9a480DFCDf56713Fda5b" 
+const CONTRACT_ADDRESS = "0xa17D29125236000872f1d99c4Aa541A6f4694972" 
 const PORT = 90
 const IS_REVEALED = true
 const UNREVEALED_METADATA = {
@@ -20,12 +20,12 @@ const contract = new Contract(abi, CONTRACT_ADDRESS)
 var cors = require('cors')
 const app = express()
 app.use(cors())
-app.get('/', (req, res) => res.send('Welcome to Weirdo API'));
+app.get('/', (req, res) => res.send('Welcome to Companions API'));
 app.use(express.static(__dirname + 'public'))
 app.use('/unrevealed', express.static(__dirname + '/unrevealed'));
 
 async function initAPI() {
-  MAX_SUPPLY = 6666
+  MAX_SUPPLY = 5000
   console.log("MAX_SUPPLY is: " + MAX_SUPPLY)
   app.listen(PORT, () => {
     console.log(`Listening to port ${PORT}`)
